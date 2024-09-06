@@ -13,12 +13,12 @@ window.onload = function() {
   let when = ['antes de la clase', 'cuando dormía', 'mientras hacía ejercicio', 'durante mi almuerzo', 'mientras oraba'];
 
 
-  let txt1 = math.floor(math.random()* who.length);
-  let txt2 = math.floor(math.random()* action.length);
-  let txt3 = math.floor(math.random()* what.length);
-  let txt4 = math.floor(math.random()* when.length);
+  let txt1 = Math.floor(Math.random()* who.length);
+  let txt2 = Math.floor(Math.random()* action.length); 
+  let txt3 = Math.floor(Math.random()* what.length);
+  let txt4 = Math.floor(Math.random()* when.length);
 
-  document.getElementById("excuses").innerHTML = (who[txt1] + action[txt2] + what[txt3] + when[txt4]);
+  document.getElementById("excuses").innerHTML = who[txt1] + action[txt2] + what[txt3] + when[txt4];
 
 
   console.log("Hello Rigo from the console!");
