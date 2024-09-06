@@ -18,7 +18,7 @@ window.onload = function() {
   let txt3 = Math.floor(Math.random()* what.length);
   let txt4 = Math.floor(Math.random()* when.length);
 
-  document.getElementById("excuses").innerHTML = who[txt1] + action[txt2] + what[txt3] + when[txt4]; 
+  document.getElementById("excuses").innerHTML = who[txt1] +" "+ action[txt2] +" "+ what[txt3] +" "+ when[txt4]; 
 
 
   console.log("Hello Rigo from the console!");
